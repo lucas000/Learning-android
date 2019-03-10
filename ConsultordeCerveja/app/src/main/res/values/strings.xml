@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Consultor de Cerveja</string>
+    <string name="title_activity_buscar_cerveja">Consultor de Cerveja</string>
+    <string name="lbl_btn_procurar">Encontrar cervejas</string>
+    <string name="lbl_selecione_cor">Selecione uma cor</string>
+    <string-array name="listaCervejas">
+        <item>Lager</item>
+        <item>Pilsen</item>
+        <item>Ale</item>
+        <item>Bock</item>
+        <item>Weiss</item>
+    </string-array>
+</resources>
