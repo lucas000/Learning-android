@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="title_activity_type_name">Entrar</string>
+    <string name="title_activity_main">Login</string>
+    <string name="lbl_name">Usuário</string>
+    <string name="btn_name">Entrar</string>
+    <string name="lbl_welcome">Bem vindo: </string>
+    <string name="lbl_senha">Senha</string>
+    <string name="lbl_fazer_login">Acessar</string>
+</resources>
