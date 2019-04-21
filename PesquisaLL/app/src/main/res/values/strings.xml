@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">PesquisaLL</string>
+    <string name="ck_dem">DEM</string>
+    <string name="ck_ptb">PTB</string>
+    <string name="ck_pps">PPS</string>
+    <string name="ck_pode">PODE</string>
+    <string name="ck_avante">AVANTE</string>
+
+    <string name="title_activity_login">Login</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="ir_resultados">Resultados</string>
+    <string name="ir_home">Início</string>
+    <string name="titulo_formulario_usuario">UsuárioLL</string>
+    <string name="title_activity_formulario_leitor">ActivityFormularioLeitor</string>
+    <string name="lbl_nome_usuario">Nome completo</string>
+    <string name="lbl_titulo_eleitor">Número do título</string>
+    <string name="lbl_zona">Zona eleitoral</string>
+    <string name="lbl_secao">Seção eleitoral</string>
+    <string name="lbl_cidade">Cidade</string>
+    <string name="lbl_estado">Estado </string>
+    <string name="ir_representantes">Ir</string>
+    <string name="lbl_login">Login</string>
+    <string name="lbl_usuario">Usuário</string>
+    <string name="lbl_senha">Senha</string>
+    <string-array name="array_estados">
+        <item>Selecionar</item>
+        <item>Acre</item>
+        <item>Alagoas</item>
+        <item>Amapá</item>
+        <item>Amazonas</item>
+        <item>Bahia</item>
+        <item>Ceará</item>
+        <item>Distrito Federal</item>
+        <item>Espírito Santo</item>
+        <item>Goiás</item>
+        <item>Maranhão</item>
+        <item>Mato Grosso</item>
+        <item>Mato Grosso do Sul</item>
+        <item>Minas Gerais</item>
+        <item>Pará</item>
+        <item>Paraíba</item>
+        <item>Paraná</item>
+        <item>Pernambuco</item>
+        <item>Piauí</item>
+        <item>Rio de Janeiro</item>
+        <item>Rio Grande do Norte</item>
+        <item>Rio Grande do Norte</item>
+        <item>Rio Grande do Sul</item>
+        <item>Rondônia</item>
+        <item>Roraima</item>
+        <item>Santa Catarina</item>
+        <item>São Paulo</item>
+        <item>Sergipe</item>
+        <item>Tocantins</item>
+    </string-array>
+
+    <string-array name="array_deputados_estaduais_go">
+        <item>Selecionar</item>
+        <item>Alysson Lima</item>
+        <item>Cláudio Meirelles</item>
+        <item>Diego Sorgatto</item>
+        <item>Gusttavo Sebba</item>
+        <item>Iso Moreira</item>
+    </string-array>
+
+    <string-array name="array_deputados_federais_go">
+        <item>Selecionar</item>
+        <item>José Nelto</item>
+        <item>Delegado Waldir</item>
+        <item>Flávia Moraes</item>
+        <item>João Campos</item>
+        <item>Zé Mario</item>
+    </string-array>
+
+    <string-array name="array_senadores_go">
+        <item>Selecionar</item>
+        <item>Fabricío Rosa</item>
+        <item>Jorge Kajuru</item>
+        <item>Lúcia Vânia</item>
+        <item>Marconi Perillo</item>
+        <item>Vanderlan</item>
+    </string-array>
+
+    <string-array name="array_governadores_go">
+        <item>Selecionar</item>
+        <item>Daniel Vilela</item>
+        <item>José Eliton</item>
+        <item>Kátia Maria</item>
+        <item>Marcelo Lira</item>
+        <item>Ronaldo Caiado</item>
+    </string-array>
+
+    <string-array name="array_partidos">
+        <item>Selecionar</item>
+        <item>PTB</item>
+        <item>DEM</item>
+        <item>PPS</item>
+        <item>AVANTE</item>
+        <item>PODE</item>
+    </string-array>
+    <string name="title_activity_dados_representantes">RepresentantesLL</string>
+    <string name="lbl_dep_est">Deputado estadual</string>
+    <string name="lbl_dep_federal">Deputado federal</string>
+    <string name="lbl_senador">Senador</string>
+    <string name="lbl_governador">Governador</string>
+    <string name="lbl_presidente">Presidente</string>
+    <string name="lbl_presidente1">Bolsonaro</string>
+    <string name="lbl_presidente2">Haddad</string>
+    <string name="lbl_salvar_pesquisa">Salvar</string>
+    <string name="title_activity_dados_pesquisa">Dados da pesquisaLL</string>
+    <string name="lbl_dados_nome_usuario">Nome do usuário: </string>
+    <string name="lbl_res_titulo">Título do eleitor: </string>
+    <string name="lbl_zona_res">Zona:</string>
+    <string name="lbl_secao_res">Seção eleitorial:</string>
+    <string name="lbl_cidade_res">Cidade:</string>
+    <string name="lbl_est_dados">Estado:</string>
+    <string name="lbl_parte_usuario">Dados do usuário</string>
+    <string name="lbl_representantes">Dados dos representantes</string>
+    <string name="lbl_dep_est_res">Deputado Estadual:</string>
+    <string name="lbl_dep_fed_res">Deputado Federal:</string>
+    <string name="lblsena">Senador:</string>
+    <string name="lbl_gov">Governador:</string>
+    <string name="lbl_pres">Presidente:</string>
+    <string name="lbl_partidos">Partidos: </string>
+    <string name="lbl_partid">Partido</string>
+    <string name="title_activity_pesquisa_eletronica">PesquisaLL</string>
+    <string name="lbl_comecar">Iniciar pesquisa</string>
+</resources>

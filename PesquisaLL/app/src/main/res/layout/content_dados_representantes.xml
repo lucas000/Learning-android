@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DadosRepresentantes"
+    tools:showIn="@layout/activity_dados_representantes">
+
+    <ImageView
+        android:id="@+id/imgDadosRepresentants"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tre" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/lbl_dep_est"
+        app:layout_constraintEnd_toEndOf="@+id/imgDadosRepresentants"
+        app:layout_constraintStart_toStartOf="@+id/imgDadosRepresentants"
+        app:layout_constraintTop_toBottomOf="@+id/imgDadosRepresentants" />
+
+    <Spinner
+        android:id="@+id/spnDepEst"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:entries="@array/array_deputados_estaduais_go"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/lbl_dep_federal"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/spnDepEst" />
+
+    <Spinner
+        android:id="@+id/spnDepFed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:entries="@array/array_deputados_federais_go"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/lbl_senador"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/spnDepFed" />
+
+    <Spinner
+        android:id="@+id/spnSen"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:entries="@array/array_senadores_go"
+        app:layout_constraintEnd_toEndOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/lbl_governador"
+        app:layout_constraintEnd_toEndOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/spnSen" />
+
+    <Spinner
+        android:id="@+id/spnGov"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:entries="@array/array_governadores_go"
+        app:layout_constraintEnd_toEndOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="0dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/lbl_presidente"
+        app:layout_constraintEnd_toEndOf="@+id/lbl_parisd"
+        app:layout_constraintStart_toStartOf="@+id/lbl_parisd"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxPPS" />
+
+    <RadioGroup
+        android:id="@+id/rdGrupoPresidente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/rdPresidente1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/lbl_presidente1"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="371dp" />
+
+        <RadioButton
+            android:id="@+id/rdPresidente2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/lbl_presidente2"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_editor_absoluteY="370dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/lbl_parisd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/lbl_partid"
+        app:layout_constraintEnd_toEndOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/spnGov" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDEM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="61dp"
+        android:layout_marginStart="61dp"
+        android:onClick="clicouPartido"
+        android:text="@string/ck_dem"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_parisd" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPtb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="clicouPartido"
+        android:text="@string/ck_ptb"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxPode"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_parisd" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="clicouPartido"
+        android:text="@string/ck_pode"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxPPS"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_parisd" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="clicouPartido"
+        android:text="@string/ck_pps"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxDEM"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_parisd" />
+
+</android.support.constraint.ConstraintLayout>
