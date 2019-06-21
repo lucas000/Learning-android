@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".ConfigurarExperimento" >
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AdicionarAmostra">
+
+        <TextView
+            android:id="@+id/txtAltura"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/lbl_altura"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:text="@string/lbl_altura_insercao"
+            app:layout_constraintEnd_toEndOf="@+id/edtMilimetroComo"
+            app:layout_constraintStart_toStartOf="@+id/edtMilimetroComo"
+            app:layout_constraintTop_toBottomOf="@+id/edtMilimetroComo" />
+
+        <TextView
+            android:id="@+id/txtMilimetroComo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/lbl_milimetro_como"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/edtAltura"
+            app:layout_constraintStart_toStartOf="@+id/edtAltura"
+            app:layout_constraintTop_toBottomOf="@+id/edtAltura" />
+
+        <TextView
+            android:id="@+id/txtAmostra"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/lbl_amostra"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/edtAlturaInsercao"
+            app:layout_constraintStart_toStartOf="@+id/edtAlturaInsercao"
+            app:layout_constraintTop_toBottomOf="@+id/edtAlturaInsercao" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/lbl_bloco"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/edtAmostras"
+            app:layout_constraintStart_toStartOf="@+id/edtAmostras"
+            app:layout_constraintTop_toBottomOf="@+id/edtAmostras" />
+
+        <EditText
+            android:id="@+id/edtAltura"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:hint="@string/dica_altura"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtAltura" />
+
+        <EditText
+            android:id="@+id/edtMilimetroComo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/dica_colmo"
+            android:inputType="number"
+            android:text=""
+            app:layout_constraintEnd_toEndOf="@+id/txtMilimetroComo"
+            app:layout_constraintStart_toStartOf="@+id/txtMilimetroComo"
+            app:layout_constraintTop_toBottomOf="@+id/txtMilimetroComo" />
+
+        <EditText
+            android:id="@+id/edtAlturaInsercao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/dica_altura"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <EditText
+            android:id="@+id/edtAmostras"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/txtAmostra"
+            app:layout_constraintStart_toStartOf="@+id/txtAmostra"
+            app:layout_constraintTop_toBottomOf="@+id/txtAmostra" />
+
+        <EditText
+            android:id="@+id/edtBloco"
+            android:layout_width="0dp"
+            android:editable="false"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/textView5"
+            app:layout_constraintStart_toStartOf="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

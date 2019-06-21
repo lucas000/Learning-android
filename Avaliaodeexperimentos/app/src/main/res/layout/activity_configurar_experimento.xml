@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".ConfigurarExperimento" >
+    
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <TextView
+        android:id="@+id/txtNomeExperimento"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/lbl_nome_experimento"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtNomeExperimento"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/txtNomeExperimento"
+        app:layout_constraintStart_toStartOf="@+id/txtNomeExperimento"
+        app:layout_constraintTop_toBottomOf="@+id/txtNomeExperimento" />
+
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/lbl_data"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtNomeExperimento"
+        app:layout_constraintStart_toStartOf="@+id/txtNomeExperimento"
+        app:layout_constraintTop_toBottomOf="@+id/edtNomeExperimento" />
+
+    <EditText
+        android:id="@+id/edtAlterarData"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName|date"
+        app:layout_constraintEnd_toEndOf="@+id/txtData"
+        app:layout_constraintStart_toStartOf="@+id/txtData"
+        app:layout_constraintTop_toBottomOf="@+id/txtData" />
+
+
+    <TextView
+        android:id="@+id/txtTotalBlocos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/lbl_TotalPorBlocos"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/edtAlterarData"
+        app:layout_constraintStart_toStartOf="@+id/edtAlterarData"
+        app:layout_constraintTop_toBottomOf="@+id/edtAlterarData" />
+
+    <EditText
+        android:id="@+id/edtTotalBlocos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dica_total_blocos"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/txtTotalBlocos"
+        app:layout_constraintStart_toStartOf="@+id/txtTotalBlocos"
+        app:layout_constraintTop_toBottomOf="@+id/txtTotalBlocos" />
+
+    <TextView
+        android:id="@+id/txtAmostrarPorBlocos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/lbl_AmostrasPorBloco"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/edtTotalBlocos"
+        app:layout_constraintStart_toStartOf="@+id/edtTotalBlocos"
+        app:layout_constraintTop_toBottomOf="@+id/edtTotalBlocos" />
+
+    <EditText
+        android:id="@+id/edtAmostrasPorBlocos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/dica_total_blocos"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/txtAmostrarPorBlocos"
+        app:layout_constraintStart_toStartOf="@+id/txtAmostrarPorBlocos"
+        app:layout_constraintTop_toBottomOf="@+id/txtAmostrarPorBlocos" />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:onClick="iniciarExperimento"
+        android:text="@string/lbl_iniciar_experimento"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtAmostrasPorBlocos" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

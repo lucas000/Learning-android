@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "521982952762",
+    "firebase_url": "https://avaliacaoexperimentos.firebaseio.com",
+    "project_id": "avaliacaoexperimentos",
+    "storage_bucket": "avaliacaoexperimentos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521982952762:android:5ab6829e2a3e10d7",
+        "android_client_info": {
+          "package_name": "experimentos.br.com.avaliaodeexperimentos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521982952762-leqv705er0d1enj55fg30q7hph8beune.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "experimentos.br.com.avaliaodeexperimentos",
+            "certificate_hash": "abdacace027b1d98f5c0b86b0c9928acd9eb1b5a"
+          }
+        },
+        {
+          "client_id": "521982952762-8o6f7ivgim9smirjf5b32kf0162gfq6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5VEKfqFzKKYnva4bHJwccuHNpA2iJNXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521982952762-8o6f7ivgim9smirjf5b32kf0162gfq6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

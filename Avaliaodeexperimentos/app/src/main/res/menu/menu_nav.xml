@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_item_one"
+            android:title="Novo experimento" />
+
+    </group>
+
+    <item android:title="Encerrar">
+        <menu>
+            <item android:id="@+id/nav_item_sair"
+                android:title="Deslogar" />
+        </menu>
+    </item>
+
+    <item android:title="Dicas">
+        <menu>
+            <item android:id="@+id/nav_item_como_usar"
+                android:title="Como usar" />
+        </menu>
+    </item>
+
+    <item android:title="Saiba mais">
+        <menu>
+            <item android:id="@+id/nav_item_sobre"
+                android:title="Sobre" />
+            <item android:id="@+id/nav_item_alvo"
+                android:title="Alvo" />
+        </menu>
+    </item>
+</menu>

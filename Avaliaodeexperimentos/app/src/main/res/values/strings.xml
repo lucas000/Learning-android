@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Avaliação de milho</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="lbl_nome_experimento">Nome do experimento</string>
+    <string name="lbl_data">Data do experimento</string>
+    <string name="lbl_TotalPorBlocos">Total de Blocos</string>
+    <string name="lbl_AmostrasPorBloco">Amostras por bloco</string>
+    <string name="lbl_iniciar_experimento">Iniciar</string>
+    <string name="lbl_configurar_experimento">Configurar experimento</string>
+    <string name="lbl_avaliacao_experimento">Avaliação de milho</string>
+    <string name="lbl_altura">Altura</string>
+    <string name="lbl_adicionar_amostra">Adicionar amostra</string>
+    <string name="lbl_milimetro_como">Milímetro de colmo</string>
+    <string name="lbl_altura_insercao">Altura de inserção</string>
+    <string name="lbl_amostra">Amostras adicionadas</string>
+    <string name="lbl_bloco">Número do bloco</string>
+    <string name="lbl_salvar_amostra">Salvar</string>
+    <string name="title_activity_login">Entrar</string>
+
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Fechar</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_cadastro">Cadastrar</string>
+    <string name="action_sign_in">Cadastrar ou registra-se</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="dica_total_blocos">Número inteiro</string>
+    <string name="dica_altura">Em metros(1.70)</string>
+    <string name="dica_colmo">Número inteiro(300)</string>
+    <string name="dica_nome_experimro">Nome do experimento</string>
+    <string name="dica_data">Data experimento</string>
+    <string name="lbl_cadastrar">Cadastrar</string>
+    <string name="Lbl_entrat">Entrar</string>
+    <string name="lbl_email_dest">Email destinatário</string>
+    <string name="lbl_enviar">Enviar relatório</string>
+    <string name="title_activity_cadastro">Cadastro</string>
+    <string name="lbl_recuperar_senh">Recuperar senha?</string>
+    <string name="lbl_cadastro">Cadastrar-se</string>
+    <string name="lbl_email">Email para recuperar</string>
+    <string name="btn_recuperar">Recuperar senha</string>
+</resources>
