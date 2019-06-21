@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cafeteria Madruga</string>
+    <string name="cafeteria_logo">Cafe Logo</string>
+    <string-array name="options">
+        <item>Bebidas</item>
+        <item>Comida</item>
+        <item>Mercearia</item>
+    </string-array>
+
+    <string name="favorito">Favorito</string>
+    <string name="favoritos">Suas bebidas favoritas</string>
+</resources>
